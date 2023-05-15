@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="${forge_range}" #mandatory
+license="MIT"
+issueTrackerURL="https://github.com/ChiefArug/skyhook/issues" #optional
+[[mods]] #mandatory
+modId="skyhook" #mandatory
+version="${skyhook_version}" #mandatory
+displayName="Skyhook" #mandatory
+# A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/skyhook" #optional
+logoFile="pack.png" #optional
+logoBlur=false
+#credits="" #optional
+authors="ChiefArug" #optional
+description='''
+Fly through the skies with the greatest of ease!
+'''
+[[dependencies.skyhook]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_range}" #mandatory
+[[dependencies.skyhook]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_range}"
